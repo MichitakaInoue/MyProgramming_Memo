@@ -1,0 +1,23 @@
+#コマンドでgitでpushするまで
+
+
+1.githubのアカウントを作成
+
+
+2.SSH KEYの作成 
+
+
+3公開鍵の登録
+
+
+
+
+
+https://qiita.com/33yuki/items/9ef9d54f2e7d53cfb51c
+
+
+https://qiita.com/kenju/items/b09199c4b3e7203a2867
+
+
+
+
