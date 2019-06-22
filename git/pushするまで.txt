@@ -13,6 +13,16 @@
 
 
 
+コマンド 
+
+ git add .
+ git commit -m "コメント"
+ git remote add origin git@github.com:ユーザー名/リポジトリ名.git
+ git push origin master
+
+でいける
+
+
 https://qiita.com/33yuki/items/9ef9d54f2e7d53cfb51c
 
 
