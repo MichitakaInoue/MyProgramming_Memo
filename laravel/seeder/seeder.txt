@@ -1,0 +1,40 @@
+#seederとは
+
+	テストなどでダミーデータを入れる場合　とりあえず動かす	
+	
+	
+	複数人で開発をするので、一人がログインを作っていて、もう一人がユーザー登       i 録の機能を作っている場合	
+	
+
+	ログイン機能はできたけど、まだユーザー登録機能ができていない場合
+	うまく動くかテストしたいのでダミーデータを入れる必要がある
+
+
+	DBに接続してsqlを叩くのもいいが、そういったデータは色々なテストでもあとあと使えるため、のこしておくこと
+	
+	seederという機能でファイルで残しておける
+	
+	
+
+
+
+
+
+
+#やり方
+	
+	php artisan make:seeder {適当な名前}
+
+	//usersテーブルにダミーデータを追加したい場合
+	php artisan make:seeder UsersTableSeeder  
+		これで/database/seeds配下にUsersTableSeeder.phpが出来上がる
+
+	
+	run()の中に色々メソッドを追加していく
+
+
+	・DBクラスを使うので use DBする
+	
+	・seederファイルを実行したら下記を実行
+		php artisan db:seed --class=UserTableSeeder
+		これでdbに流し込むことが可能	

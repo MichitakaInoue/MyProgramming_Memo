@@ -1,0 +1,14 @@
+#viewの指定
+
+
+
+	public function showRegistrationForm(){
+	
+		retturn view('auth.register');
+	}
+
+
+
+
+	このようにドットをつけて、ディレクトリを指定
+	autt配下のregister.phpを読んでいる

@@ -1,0 +1,25 @@
+
+#マイグレーションファイルの作成
+
+	php artisan make:migration {テーブル名}_table
+
+
+	php artisan make:migration create_users_table --create=users
+
+	php artisan make:migration create_drills_table --create=drills
+
+
+	新規作成でテーブルを作るのであれば  --create
+
+	describe テーブル名; でカラムを一覧で見る
+	
+	
+	php artisan migrate マイグレーション作成
+
+	**必ずマイグレーションファイルを作成したら、ロールバックできるか確認すること++
+
+	マイグレーションファイルを使うことで、SQL文を作ることなく管理画面をひたすら操作せずともDB操作	     が行える
+
+	
+	migrations配下で、いつの時点で、どんな操作を行ったか、履歴として残る
+			

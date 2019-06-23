@@ -1,0 +1,19 @@
+#マイグレーションした後のテーブルについて
+
+
+
+
+i+--------------------------+
+| Tables_in_laravel_sample |
++--------------------------+
+| hogehoge         |
+| migrations               |
+| password_resets          |
+| users                    |
++--------------------------+
+
+
+デフォルトでついてくるusers pasword_resets
+
+そしてmigrationsテーブルも作られる
+
