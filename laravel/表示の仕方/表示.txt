@@ -1,0 +1,8 @@
+#ブラウザにどうやって表示させるのか
+
+	Route::get('/', function () {
+   	  return view('child');
+	});
+
+
+	・return viewの引数をファイル名にしてlocalhost:80001
