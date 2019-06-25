@@ -1,0 +1,59 @@
+#モデルの作成
+
+	・DB操作方法には
+		DBクラスを使う
+		クエリビルダーを使う
+		ORMを使う
+
+
+
+
+
+
+#ORMを使う
+	・laravelにはEloquent ORM エロクエントORM
+	・appディレクトリ配下ならどこでも良い　　composer.jsonで設定すれば好き		  場所で書くことができる
+
+	・appの中にUserモデルがデフォルトで用意されている
+
+	
+
+		php atrisan make:model モデル名
+		
+	例	php artisan make:model Drill
+
+		
+
+
+
+
+
+
+
+
+
+#モデル名の複数形がテーブル名として判別してSQLを自動で作ってくれる
+
+
+	もし、テーブル名がモデル名ではない場合は
+
+	namespace App;
+	use Illuminate\Eloquent\Model;
+
+	class Drill extens Model{
+		protected $table  = 'my_drills';
+	}
+
+
+	ptotected $tableでその内容を元にSQLを自動で作ることができます
+
+
+
+
+
+
+
+
+#カラムにロックをかけるには
+
+	fillableもしくはgurded
