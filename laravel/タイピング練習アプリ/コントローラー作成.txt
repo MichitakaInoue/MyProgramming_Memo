@@ -1,0 +1,7 @@
+#コントローラーの作成方法
+
+	php artisan make:controller コントローラー名
+
+	**コントローラー名はアッパーキャメルでooControllerという命名規則にするこ           と
+
+	php artisan make:controller DrillsController

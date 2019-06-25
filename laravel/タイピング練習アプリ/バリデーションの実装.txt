@@ -1,0 +1,28 @@
+#バリデーションの実装
+
+	createアクションを作成　入力値に問題ないかバリデーションを実装
+	
+
+
+
+	public function create(Request $request){
+	
+	$request->validate([
+		  //ここにバリデーションさせる		
+		]);
+	}
+
+
+
+	create(Request $request)
+	で$requestの中に入力値の値が一切入ってくる
+		
+	それで->validate()メソッドにアクセス
+	
+
+       
+
+	・出てくるエラー
+	
+	 The POST method is not supported for this route. Supported methods: GET, HEAD.
+ 	

@@ -1,0 +1,22 @@
+#ルーティングとは
+
+	Route::get('/drills/new', 'DrillsController@new')->name('drills.new');)
+
+
+	Route::post('/drills', DrillsController@create')->name('drills.new');
+
+	
+
+
+        ・postまたはgetがあった場合、指定したURIに送ってあげる
+	・その時に、指定したアクションDrillsController@create
+	・->nameで名前をそのルーティングに対してつけることができる
+	・そのnameはviewと対応しているキーとしての扱いを受ける
+
+
+
+	・つまりルーティングがあった場合にどこのURIに飛ぶのかを操作数ことができる
+
+
+
+	
