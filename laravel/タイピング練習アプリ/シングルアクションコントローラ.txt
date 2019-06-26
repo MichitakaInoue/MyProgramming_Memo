@@ -1,0 +1,28 @@
+#シングルアクションコントローラとは
+
+	アクションを１個しか実装しないのであればシングルアクションコントローラを	使うとわかりやすい。
+	
+	シングルアクションコントローラを使えばルーティングはコントローラ名のみで	よくなる
+	
+	__invoke  を書く
+	
+
+
+	class DrillsController extends Controller{
+		function __invoke(){
+
+		}
+	}
+
+	
+	//ルーティングの書き方が、コントローラ名だけで良くなる	
+
+	Route::get('/diaries', 'DiariesController');
+
+
+		
+
+
+	
+
+	
