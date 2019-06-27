@@ -1,0 +1,16 @@
+#vue.jsの読み込み方
+
+
+	・任意のビューに
+		<div id="app">
+                    {{-- デフォルトだとこの中ではvue.jsが有効 --}}
+                    {{-- example-componentはlaravelに入っているサンプルのコンポーネント --}}
+                     <example-component></example-component>
+               
+		 </div>
+
+		
+
+
+
+	・resources/js/componentsに~~~.vueファイルを作成

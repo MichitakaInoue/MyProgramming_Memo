@@ -1,0 +1,6 @@
+#編集きのう
+
+	・ルーティングを設定
+
+
+	Route::get('/drills/id{/edit', 'DrillsController@edit')->name}
