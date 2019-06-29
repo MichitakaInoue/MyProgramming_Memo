@@ -1,0 +1,18 @@
+主要コマンドが使えないとき
+
+
+
+
+https://yunabe.hatenablog.com/entry/2017/02/11/134355
+
+
+
+
+/usr/bin/vi ~/.bash_profile
+
+
+
+で　書き込む
+
+
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin

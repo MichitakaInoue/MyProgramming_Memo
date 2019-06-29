@@ -1,0 +1,17 @@
+sudo tail -f /usr/local/var/mysql/inouenoMac-mini.local.err | grep ERROR
+
+
+
+
+
+
+
+
+
+でエラーログを確認する
+
+
+
+
+
+
